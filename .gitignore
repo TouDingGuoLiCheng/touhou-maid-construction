@@ -1,0 +1,53 @@
+# eclipse
+/bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+
+# idea
+/out/
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# gradle / forge (root only — the source tree has a `build` package)
+/build/
+/.gradle/
+/run/
+/run-data/
+/eclipse/
+/mcmodsrepo/
+
+# local dependency jars (use Modrinth/CurseMaven instead)
+libs/*.jar
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+.tmp_*/
+
+forge*changelog.txt
+changelog.txt
+CREDITS.txt
+README.txt
+
+# Public export extras
+.scratch/
+.cursor/
+.superpowers/
+.worktrees/
+下一步的计划-*.md
+待办事项.md
+待修复.md
+*.log
+build-error.txt
+build_compile*.txt
+releases/*.jar

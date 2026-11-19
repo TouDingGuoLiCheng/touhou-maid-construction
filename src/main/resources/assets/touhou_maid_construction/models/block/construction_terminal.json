@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "touhou_maid_construction:block/construction_terminal_side",
+    "down": "touhou_maid_construction:block/construction_terminal_bottom",
+    "up": "touhou_maid_construction:block/construction_terminal_top",
+    "north": "touhou_maid_construction:block/construction_terminal_front",
+    "south": "touhou_maid_construction:block/construction_terminal_side",
+    "west": "touhou_maid_construction:block/construction_terminal_side",
+    "east": "touhou_maid_construction:block/construction_terminal_side"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#down", "cullface": "down" },
+        "up":    { "texture": "#up", "cullface": "up" },
+        "north": { "texture": "#north", "cullface": "north" },
+        "south": { "texture": "#south", "cullface": "south" },
+        "west":  { "texture": "#west", "cullface": "west" },
+        "east":  { "texture": "#east", "cullface": "east" }
+      }
+    }
+  ]
+}

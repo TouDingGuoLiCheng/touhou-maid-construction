@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "touhou_maid_construction:block/construction_terminal" },
+    "facing=south": { "model": "touhou_maid_construction:block/construction_terminal", "y": 180 },
+    "facing=west": { "model": "touhou_maid_construction:block/construction_terminal", "y": 270 },
+    "facing=east": { "model": "touhou_maid_construction:block/construction_terminal", "y": 90 }
+  }
+}
